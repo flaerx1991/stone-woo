@@ -1,0 +1,68 @@
+<div class="product-page-filter product-sheet">
+	<div class="product-page-filter-container">
+				
+		<?php $filters = get_field('products_filters', 'options'); ?>
+		
+		<?php foreach($filters as $filter) : ?>
+			<?php
+			$taxonomy = $filter['products_filter_taxonomies'];
+
+			$terms = get_terms([
+				'taxonomy' => $taxonomy,
+				'orderby' => 'name',
+				'order' => 'ASC',
+			]);
+
+			//because collection taxonomy assigned for product and projects post types, for display correct count items for each term 
+			//we need to subtract collections for projects post type
+			if($taxonomy == 'collection') {
+				$projects_ids = get_posts([
+					'post_type' => 'projects',
+					'fields' => 'ids',
+					'posts_per_page' => -1,
+					'post_status' => 'publish'
+				]);
+				$projects_collection_count = [];
+				foreach($projects_ids as $projects_id) {
+					$project_collection_terms = get_the_terms($projects_id, 'collection');
+					if($project_collection_terms) {
+						foreach($project_collection_terms as $project_collection_term) {
+							if(isset($projects_collection_count[$project_collection_term->term_id])) {
+								$projects_collection_count[$project_collection_term->term_id] = $projects_collection_count[$project_collection_term->term_id] + 1;
+							}
+							else $projects_collection_count[$project_collection_term->term_id] = 1;						
+						}					
+					}
+				}
+			}
+			?>
+
+			<?php if($terms) : ?>
+				<div class="product-page-filter-item" data-filter-by="<?php echo $taxonomy; ?>">
+					<div class="product-page-filter-top">
+						<div class="label"><?php echo $filter['filter_sup_title']; ?></div>
+						<div class="title" data-default-title="<?php echo $filter['filter_title']; ?>">
+							<span><?php echo $filter['filter_title']; ?></span>
+							<div class="icon">
+								<svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.92512 5.63719L2.69562 4.87054L8.36099 10.5359L14.02 4.87054L14.7969 5.63719L8.36099 12.0731L1.92511 5.63719L1.92512 5.63719Z" fill="black"/></svg>
+							</div>
+						</div> 
+					</div>
+					<div class="product-page-filter-body">
+						<?php foreach($terms as $term) : ?>						
+							<div class="checked-item <?php echo($term->count == 0 || $term->count - $projects_collection_count[$term->term_id] == 0) ? 'disabled':''; ?>">
+								<input type="checkbox" name="<?php echo $taxonomy; ?>[]" id="<?php echo $term->term_id; ?>" value="<?php echo $term->slug; ?>">
+								<label for="<?php echo $term->term_id; ?>" data-count="<?php echo($taxonomy == 'collection') ? ($term->count - $projects_collection_count[$term->term_id]) : $term->count; //count with outlet products ?>">
+									<?php echo $term->name; ?>
+								</label>
+							</div>
+						<?php endforeach; ?>
+						
+						<button class="filter-button"><?php _e('Apply', 'stone'); ?></button>
+					</div>
+				</div>
+			<?php endif; ?>
+		<?php endforeach; ?>	
+	</div>
+	<!--input type="hidden" name="outlet" id="outlet" value=""--><?php //count all products with outlet ?>
+</div>

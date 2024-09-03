@@ -1,0 +1,11 @@
+2024-02-21T17:08:21+00:00 CRITICAL Cannot redeclare logged_in_customers_validation() (previously declared in /home/teplinsk/teplin.tech/stone/wp-content/themes/stereo-bank-child/inc/woocommerce.php:252) in /home/teplinsk/teplin.tech/stone/wp-content/themes/stereo-bank-child/inc/woocommerce.php on line 270
+
+2024-02-21T20:56:05+00:00 CRITICAL Uncaught Error: Class 'CmsmastersElementor\Tags\Woocommerce\Product_Count' not found in /home/teplinsk/teplin.tech/stone/wp-content/plugins/cmsmasters-elementor-addon-expanded/includes/managers/tags.php:337
+Stack trace:
+#0 /home/teplinsk/teplin.tech/stone/wp-includes/class-wp-hook.php(324): CmsmastersElementor\Tags_Manager->register_tags(Object(Elementor\Core\DynamicTags\Manager))
+#1 /home/teplinsk/teplin.tech/stone/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 /home/teplinsk/teplin.tech/stone/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/teplinsk/teplin.tech/stone/wp-content/plugins/elementor/core/dynamic-tags/manager.php(271): do_action('elementor/dynam...', Object(Elementor\Core\DynamicTags\Manager))
+#4 /home/teplinsk/teplin.tech/stone/wp-content/plugins/elementor/core/dynamic-tags/manager.php(228): Elementor\Core\DynamicTags\Manager->get_tags()
+#5 /home/teplinsk/teplin.tech/stone/wp-content/plugins/elementor/includes/base/controls-stack.php(2475): Elementor\C in /home/teplinsk/teplin.tech/stone/wp-content/plugins/cmsmasters-elementor-addon-expanded/includes/managers/tags.php on line 337
+

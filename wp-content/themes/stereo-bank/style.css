@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/*
+Theme Name: STONELUX
+Theme URI: https://stereo-bank.cmsmasters.net/
+Author: cmsmasters
+Author URI: https://cmsmasters.net/
+Description: Stereo Bank Elementor Wordpress Theme is the ultimate financial business theme that includes a custom premium CMSMasters Elementor addon. With a focus on providing a range of credit programs, this theme is ideal for banks, credit companies, mortgage and insurance providers, credit card issuers, and electronic money companies. Customize the whole website in few clicks with global settings and build templates for any layout, any design using the template builder.
+Version: 1.0.0
+License:
+License URI:
+Text Domain: stereo-bank
+Domain Path: /theme-config/languages
+Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-image-header, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+*/
+
+
+.sticky,
+.bypostauthor,
+.screen-reader-text {
+  outline: none;
+}

@@ -1,0 +1,25 @@
+.cmsmasters-ei-form {
+    position: absolute;
+    left: -99999px;
+}
+.cmsmasters-ei-hr {
+    margin: 20px 0px 10px;
+}
+.cmsmasters-ei-import-file {
+    background: #eeeeee;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 12px;
+}
+.cmsmasters-ei-import-images {
+    display: block;
+    margin-bottom: 10px;
+}
+.cmsmasters-ei-uploading {
+    background: #eeeeee;
+    display: none;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 12px;
+}

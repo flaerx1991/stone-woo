@@ -1,0 +1,2071 @@
+.custom-page p {
+	margin-bottom: 0;
+}
+.custom-page form .form-item br {
+	display: none;
+}
+.custom-page .container {
+	max-width: 1440px;
+	padding: 0 50px;
+	margin: 0 auto;
+	width: 100%;
+}
+@media (max-width: 1024px) {
+	.custom-page .container {
+		padding: 0 30px;
+	}
+}
+@media (max-width: 767px) {
+	.custom-page .container {
+		padding: 0 20px;
+	}
+}
+.custom-page .h1-title {
+	color: #000;
+	text-align: center;
+	font-family: Cormorant;
+	font-size: 44px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	text-transform: uppercase;
+	margin-bottom: 36px;
+}
+@media (max-width: 767px) {
+	.custom-page .h1-title {
+		font-size: 32px;
+		line-height: 88%;
+	}
+}
+.custom-page .contact-page {
+	padding: 50px 0 90px;
+}
+@media (max-width: 768px) {
+	.custom-page .contact-page {
+		padding: 32px 0 55px;
+	}
+}
+.custom-page .contact-page .contact-page-top {
+	position:relative;
+}
+.custom-page .contact-page .contact-page-top,
+.custom-page .contact-page .contact-page-top img{
+	width: 100%;
+	height: 240px;
+}
+
+@media (max-width: 767px) {
+	.custom-page .contact-page .contact-page-top {
+		height: 165px;
+	}
+	.custom-page .contact-page .contact-page-top img {
+		height:100%;
+		max-width:100%;
+		object-fit:cover;
+	}
+}
+.custom-page .contact-page .contact-page-top:before {
+	content: "";
+	display: block;
+	width: 1px;
+	height: 90px;
+	background: #E0E0E0;
+	position: absolute;
+	left: 50%;
+	top: -18px;
+	z-index: 1;
+}
+@media (max-width: 767px) {
+	.custom-page .contact-page .contact-page-top:before {
+		height: 64px;
+	}
+}
+.custom-page .contact-page-body {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	padding: 90px 0 0;
+	margin: 0 -20px;
+}
+@media (max-width: 768px) {
+	.custom-page .contact-page-body {
+		padding: 32px 0 0;
+	}
+}
+@media (max-width: 800px) {
+	.custom-page .contact-page-body {
+		width: 100%;
+		margin: 0;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+}
+.custom-page .contact-page-body .contact-page-body-left {
+	width: calc(50% - 40px);
+	margin: 0 20px;
+	display: flex;
+	flex-direction: column;
+}
+@media (max-width: 800px) {
+	.custom-page .contact-page-body .contact-page-body-left {
+		width: 100%;
+		margin: 0 0 30px;
+	}
+}
+.custom-page .contact-page-body .contact-page-body-left .contact-page-body-contacts {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	padding: 40px;
+	gap: 24px;
+	border-radius: 4px;
+	background: #F9F7F6;
+	margin-bottom: 12px;
+}
+@media (max-width: 800px) {
+	.custom-page .contact-page-body .contact-page-body-left .contact-page-body-contacts {
+		padding: 24px;
+	}
+}
+.custom-page .contact-page-body .contact-page-body-left .contact-page-body-contacts-item {
+	max-width: 280px;
+	display: inline-block;
+}
+.custom-page .contact-page-body .contact-page-body-left .contact-page-body-contacts-item:last-child {
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	-webkit-box-align: end;
+	-ms-flex-align: end;
+	align-items: flex-end;
+}
+.custom-page .contact-page-body .contact-page-body-left .titl {
+	color: #BDBDBD;
+	font-family: "Pp Neue Montreal";
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	text-transform: uppercase;
+	margin-bottom: 8px;
+}
+@media (max-width: 768px) {
+	.custom-page .contact-page-body .contact-page-body-left .titl {
+		font-size: 11px;
+	}
+}
+.custom-page .contact-page-body .contact-page-body-left .email {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	color: #000;
+	font-family: "Pp Neue Montreal";
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-transform: uppercase;
+	text-decoration: none;
+	-webkit-transition: 0.3s all;
+	transition: 0.3s all;
+}
+@media (max-width: 768px) {
+	.custom-page .contact-page-body .contact-page-body-left .email {
+		font-size: 16px;
+	}
+}
+.custom-page .contact-page-body .contact-page-body-left .email:hover {
+	color: #BDBDBD;
+}
+.custom-page .contact-page-body .contact-page-body-left .email svg {
+	margin-right: 12px;
+}
+.custom-page .contact-page-body .contact-page-body-left .phone {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.custom-page .contact-page-body .contact-page-body-left .phone svg {
+	margin-right: 12px;
+}
+.custom-page .contact-page-body .contact-page-body-left .links {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	color: #000;
+	font-family: "Pp Neue Montreal";
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-transform: uppercase;
+}
+@media (max-width: 768px) {
+	.custom-page .contact-page-body .contact-page-body-left .links {
+		font-size: 16px;
+	}
+}
+.custom-page .contact-page-body .contact-page-body-left .links a {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	color: #000;
+	font-family: "Pp Neue Montreal";
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-transform: uppercase;
+	-webkit-transition: 0.3s all;
+	transition: 0.3s all;
+}
+@media (max-width: 768px) {
+	.custom-page .contact-page-body .contact-page-body-left .links a {
+		font-size: 16px;
+	}
+}
+.custom-page .contact-page-body .contact-page-body-left .links a:hover {
+	color: #BDBDBD;
+}
+.custom-page .contact-page-body .contact-page-body-left .loc {
+	display: inline-block;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	color: #000;
+	font-family: "Pp Neue Montreal";
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+@media (max-width: 768px) {
+	.custom-page .contact-page-body .contact-page-body-left .loc {
+		font-size: 20px;
+	}
+}
+.custom-page .contact-page-body .contact-page-body-left .loc svg {
+	margin-bottom: -5px;
+	margin-right: -4px;
+	margin-left: -5px;
+}
+.custom-page .contact-page-body .contact-page-body-left .desc {
+	color: #4F4F4F;
+	font-family: "Pp Neue Montreal";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	margin-top: auto;
+}
+@media (max-width: 768px) {
+	.custom-page .contact-page-body .contact-page-body-left .desc {
+		font-size: 14px;
+	}
+}
+.custom-page .contact-page-body .contact-page-body-left .contact-page-body-map {
+	/*display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	height: auto;*/
+	flex-grow: 1;
+}
+.custom-page .contact-page-body .contact-page-body-left .contact-page-body-map iframe {
+	width: 100%;
+	height: 100%;
+	border-radius: 4px;
+	margin:0;
+}
+.custom-page .contact-page-body .contact-page-body-right {
+	width: calc(50% - 40px);
+	margin: 0 20px;
+	padding: 45px;
+	border-radius: 4px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	background: #F9F7F6;
+}
+@media (max-width: 1100px) {
+	.custom-page .contact-page-body .contact-page-body-right {
+		padding: 24px;
+	}
+}
+@media (max-width: 800px) {
+	.custom-page .contact-page-body .contact-page-body-right {
+		width: 100%;
+		margin: 0;
+	}
+}
+.custom-page .contact-page-body .contact-page-body-right .title {
+	color: #000;
+	font-family: Cormorant;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 88%;
+	text-transform: uppercase;
+	margin-bottom: 12px;
+}
+.custom-page .contact-page-body .contact-page-body-right .dsc {
+	color: #4F4F4F;
+	font-family: "Pp Neue Montreal";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	margin-bottom: 40px;
+}
+.custom-page .contact-page-body .contact-page-body-right .form-row {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	gap: 20px;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+.custom-page .contact-page-body .contact-page-body-right .form-row .form-item {
+	width: calc(50% - 10px);
+}
+.custom-page .contact-page-body .contact-page-body-right .form-item {
+	width: 100%;
+	margin-bottom: 32px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+.custom-page .contact-page-body .contact-page-body-right .form-item label {
+	color: #BDBDBD;
+	font-family: "Pp Neue Montreal";
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	letter-spacing: 0.7px;
+	text-transform: uppercase;
+	margin: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+@media (max-width: 768px) {
+	.custom-page .contact-page-body .contact-page-body-right .form-item label {
+		font-size: 12px;
+	}
+}
+.custom-page .contact-page-body .contact-page-body-right .form-item input {
+	color: #000;
+	font-family: "Pp Neue Montreal";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 23px;
+	letter-spacing: -0.16px;
+	padding: 16px 0;
+	border: none;
+	background-color: transparent;
+	border-bottom: 1px solid #E0E0E0;
+	border-radius: 0;
+}
+@media (max-width: 768px) {
+	.custom-page .contact-page-body .contact-page-body-right .form-item input {
+		padding: 12px 0;
+		font-size: 14px;
+		line-height: 21px;
+	}
+}
+.custom-page .contact-page-body .contact-page-body-right .form-bottom {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin: 40px 0;
+}
+@media (max-width: 1100px) {
+	.custom-page .contact-page-body .contact-page-body-right .form-bottom {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		gap: 20px;
+	}
+}
+.custom-page .contact-page-body .contact-page-body-right .form-bottom button {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	padding: 16px 72px;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	border-radius: 4px;
+	background: #000;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+	font-family: "Pp Neue Montreal";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	text-transform: uppercase;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.custom-page .contact-page-body .contact-page-body-right .form-bottom button:before, .custom-page .contact-page-body .contact-page-body-right .form-bottom button:after {
+	display: none;
+}
+@media (max-width: 768px) {
+	.custom-page .contact-page-body .contact-page-body-right .form-bottom button {
+		width: 100%;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+}
+.custom-page .contact-page-body .contact-page-body-right .form-bottom button:hover {
+	border-radius: 4px;
+	background: #4F4F4F;
+}
+.custom-page .contact-page-body .contact-page-body-right .form-dsc {
+	color: #4F4F4F;
+	font-family: "Pp Neue Montreal";
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 18px;
+	letter-spacing: -0.12px;
+}
+.custom-page .contact-page-body .contact-page-body-right .form-dsc a {
+	color: #4F4F4F;
+	font-family: "Pp Neue Montreal";
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 18px;
+	letter-spacing: -0.12px;
+	text-decoration-line: underline;
+}
+.custom-page .contact-page-body .contact-page-body-right .form-dsc a:hover {
+	color: #BDBDBD;
+}
+.custom-page .form-group {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.custom-page .form-group p > br {
+	display: none !important;
+}
+.custom-page .form-group input {
+	padding: 0;
+	height: initial;
+	width: initial;
+	margin-bottom: 0;
+	display: none;
+	cursor: pointer;
+}
+.custom-page .form-group label {
+	position: relative;
+	cursor: pointer;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	color: #000;
+	font-family: "Pp Neue Montreal";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 23px;
+	letter-spacing: -0.16px;
+	text-transform: none;
+	margin: 0 !important;
+}
+@media (max-width: 1100px) {
+	.custom-page .form-group label br {
+		display: none;
+	}
+}
+@media (max-width: 767px) {
+	.custom-page .form-group label {
+		font-size: 14px;
+	}
+}
+.custom-page .form-group label:hover:before {
+	border-color: #000;
+}
+.custom-page .form-group label:before {
+	content: "";
+	-webkit-transition: 0.3s all;
+	transition: 0.3s all;
+	-webkit-appearance: none;
+	background-color: transparent;
+	border: 1px solid #BDBDBD;
+	padding: 8.5px;
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+	cursor: pointer;
+	margin-right: 12px;
+	margin-top: 5px;
+	border-radius: 2px;
+}
+.custom-page .form-group input:checked + label:before {
+	background-color: #000;
+	border-color: #000;
+}
+.custom-page .form-group input:checked + label:after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 7px;
+	left: 7.5px;
+	width: 6px;
+	height: 11px;
+	border: solid #fff;
+	border-width: 0 2px 2px 0;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.custom-page .custom-select-wrapper {
+	width: 100%;
+}
+.custom-page .custom-select-wrapper select {
+	display: none;
+}
+.custom-page .custom-select {
+	position: relative;
+	width: 100%;
+}
+.custom-page .custom-select-trigger {
+	position: relative;
+	display: block;
+	width: 100%;
+	cursor: pointer;
+	text-align: left;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #000;
+	font-family: "Pp Neue Montreal";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 23px;
+	letter-spacing: -0.16px;
+	padding: 12px 0;
+	border: none;
+	background-color: transparent;
+	border-bottom: 1px solid #E0E0E0;
+}
+@media (max-width: 768px) {
+	.custom-page .custom-select-trigger {
+		padding: 12px 0;
+		font-size: 14px;
+		line-height: 21px;
+	}
+}
+.custom-page .custom-select-trigger:after {
+	position: absolute;
+	display: block;
+	content: "";
+	width: 7px;
+	height: 7px;
+	top: 50%;
+	right: 15px;
+	margin-top: -3px;
+	border-bottom: 1px solid #797979;
+	border-right: 1px solid #797979;
+	-webkit-transform: rotate(45deg) translateY(-50%);
+	transform: rotate(45deg) translateY(-50%);
+	-webkit-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	-webkit-transform-origin: 50% 0;
+	transform-origin: 50% 0;
+}
+.custom-page .custom-select.opened .custom-select-trigger:after {
+	margin-top: 3px;
+	-webkit-transform: rotate(-135deg) translateY(-50%);
+	transform: rotate(-135deg) translateY(-50%);
+}
+.custom-page .custom-options {
+	position: absolute;
+	display: block;
+	top: calc(100% - 1px);
+	left: 0;
+	right: 0;
+	min-width: 100%;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.07);
+	box-shadow: 0 2px 1px rgba(0, 0, 0, 0.07);
+	background: #fff;
+	-webkit-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: none;
+	-webkit-transform: translateY(-15px);
+	transform: translateY(-15px);
+	padding: 8px;
+	border-radius: 0px 0px 4px 4px;
+	border: 1px solid #E0E0E0;
+	z-index: 2;
+}
+.custom-page .custom-select.opened .custom-options {
+	opacity: 1;
+	visibility: visible;
+	pointer-events: all;
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+}
+.custom-page .custom-option {
+	position: relative;
+	display: block;
+	cursor: pointer;
+	-webkit-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	color: #000;
+	font-family: "PP Neue Montreal";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	padding: 8px 12px;
+	margin-bottom: 5px;
+}
+.custom-page .custom-option:last-child {
+	margin-bottom: 0;
+}
+.custom-page .custom-option:hover,
+.custom-page .custom-option.selection {
+	background: #F2F2F2;
+}
+.custom-page .dealer-page {
+	padding: 50px 0 90px;
+}
+@media (max-width: 768px) {
+	.custom-page .dealer-page {
+		padding: 32px 0 55px;
+	}
+}
+.custom-page .dealer-page-top {
+	width: 100%;
+	height: 500px;
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: end;
+	-ms-flex-align: end;
+	align-items: flex-end;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+.custom-page .dealer-page-top img {
+	max-width:100%;
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0;
+	top:0;
+	z-index: -1;
+}
+.custom-page .dealer-page-top .desc {
+	max-width: 656px;
+	color: #FFF;
+	text-align: center;
+	font-family: "Pp Neue Montreal";
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-transform: uppercase;
+	margin: auto auto 50px;
+}
+@media (max-width: 767px) {
+	.custom-page .dealer-page-top {
+		height: 350px;
+		margin: auto auto 20px;
+	}
+	.custom-page .dealer-page-top .desc {
+		font-size: 18px;
+		font-weight: 400;
+	}
+}
+.custom-page .dealer-page-top:before {
+	content: "";
+	display: block;
+	width: 1px;
+	height: 90px;
+	background: #E0E0E0;
+	position: absolute;
+	left: 50%;
+	top: -18px;
+}
+@media (max-width: 767px) {
+	.custom-page .dealer-page-top:before {
+		height: 64px;
+	}
+}
+.custom-page .dealer-page-countries {
+	max-width: 1110px;
+	/*margin: 50px auto 40px;*/
+	margin: 50px auto 0px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	gap: 8px;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+@media (max-width: 767px) {
+	.custom-page .dealer-page-countries {
+		gap: 4px;
+		/*margin: 52px 0 32px;*/
+		margin: 52px 0 0px;
+	}
+}
+.custom-page .dealer-page-countries .dealer-page-country {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	padding: 8px 12px;
+	border-radius: 4px;
+	background: #F2F2F2;
+	color: #000;
+	font-family: "Pp Neue Montreal";
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	text-decoration: none;
+	-webkit-transition: 0.3s all;
+	transition: 0.3s all;
+	border: 1px solid #F2F2F2;
+}
+@media (max-width: 767px) {
+	.custom-page .dealer-page-countries .dealer-page-country {
+		font-size: 13px;
+		padding: 6px 10px;
+	}
+}
+.custom-page .dealer-page-countries .dealer-page-country:hover {
+	border: 1px solid #000;
+	background-color: transparent;
+}
+.custom-page .dealer-page-countries .dealer-page-country.active {
+	border: 1px solid #000;
+	background: #000;
+	color: #fff;
+}
+.custom-page .dealer-page-map {
+	max-width: 1110px;
+	margin: 0px auto 40px;
+	height:400px;
+}
+@media (max-width: 767px) {
+	.custom-page .dealer-page-map {
+		height: 350px;
+		margin-bottom: 32px;
+	}
+}
+.custom-page .dealer-page-map img {
+	width: 100%;
+	height: 100%;
+	border-radius: 4px;
+	-o-object-fit: cover;
+	object-fit: cover;
+}
+.custom-page .dealer-page-content {
+	max-width: 1110px;
+	margin: 0px auto 0px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+@media (max-width: 767px) {
+	.custom-page .dealer-page-content {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+}
+.custom-page .dealer-page-content p {
+	color: #333;
+	font-family: "Pp Neue Montreal";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	width: calc(50% - 20px);
+}
+@media (max-width: 767px) {
+	.custom-page .dealer-page-content p {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.custom-page .dealer-page-content p:last-child {
+		margin-bottom: 0;
+	}
+}
+.custom-page .dealer-page-items {
+	max-width: 1110px;
+	margin: 0px auto 40px;
+}
+.custom-page .dealer-page-items .dealer-page-item--wrapper:not(.active) {
+	display:none;
+}
+.custom-page .dealer-page-items .dealer-page-top-titl {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+.custom-page .dealer-page-items .dealer-page-titl {
+	margin-top: 8px;
+	width: 107px;
+	color: #000;
+	font-family: "Pp Neue Montreal";
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	padding: 12px 16px;
+}
+@media (max-width: 767px) {
+	.custom-page .dealer-page-items .dealer-page-titl {
+		display: none;
+	}
+}
+.custom-page .dealer-page-items .dealer-page-titl:nth-child(1) {
+	max-width: 415px;
+	width: 37%;
+}
+@media (max-width: 1200px) {
+	.custom-page .dealer-page-items .dealer-page-titl:nth-child(1) {
+		width: 25%;
+	}
+}
+.custom-page .dealer-page-items .dealer-page-titl:nth-child(2) {
+	max-width: 131px;
+	width: 13%;
+}
+@media (max-width: 1200px) {
+	.custom-page .dealer-page-items .dealer-page-titl:nth-child(2) {
+		width: 20%;
+	}
+}
+.custom-page .dealer-page-items .dealer-page-titl:nth-child(3) {
+	max-width: 359px;
+	width: 36%;
+	color: #4F4F4F;
+}
+.custom-page .dealer-page-items .dealer-page-titl:nth-child(4) {
+	width: 13%;
+	max-width: 95px;
+	width: 100%;
+}
+.custom-page .dealer-page-items .dealer-page-item {
+	padding: 10px 0px;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	-ms-flex-item-align: stretch;
+	align-self: stretch;
+	margin-bottom: 8px;
+	text-decoration: none;
+	-webkit-transition: 0.3s all;
+	transition: 0.3s all;
+	border-radius: 4px;
+	border: 1px solid #E0E0E0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+.custom-page .dealer-page-items .dealer-page-item:hover {
+	background: #F4F4F4;
+}
+.custom-page .dealer-page-items .dealer-page-item:last-child {
+	margin-bottom: 0;
+}
+@media (max-width: 767px) {
+	.custom-page .dealer-page-items .dealer-page-item {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-pack: start;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+		-webkit-box-align: start;
+		-ms-flex-align: start;
+		align-items: flex-start;
+	}
+}
+.custom-page .dealer-page-items .dealer-page-col {
+	width: 107px;
+	padding: 0px 16px;
+	color: #000;
+	font-family: "Pp Neue Montreal";
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.custom-page .dealer-page-items .dealer-page-col:nth-child(1) {
+	max-width: 415px;
+	width: 37%;
+}
+@media (max-width: 1200px) {
+	.custom-page .dealer-page-items .dealer-page-col:nth-child(1) {
+		width: 25%;
+	}
+}
+@media (max-width: 767px) {
+	.custom-page .dealer-page-items .dealer-page-col:nth-child(1) {
+		width: 100%;
+		padding: 0px 16px 8px;
+		border-bottom: 1px solid #E0E0E0;
+	}
+}
+.custom-page .dealer-page-items .dealer-page-col:nth-child(2) {
+	max-width: 131px;
+	width: 13%;
+	border-left: 1px solid #E0E0E0;
+	border-right: 1px solid #E0E0E0;
+}
+@media (max-width: 1200px) {
+	.custom-page .dealer-page-items .dealer-page-col:nth-child(2) {
+		width: 20%;
+		border: none;
+	}
+}
+@media (max-width: 767px) {
+	.custom-page .dealer-page-items .dealer-page-col:nth-child(2) {
+		width: 100%;
+		margin: 8px 0;
+	}
+}
+.custom-page .dealer-page-items .dealer-page-col:nth-child(3) {
+	max-width: 359px;
+	width: 36%;
+	color: #4F4F4F;
+}
+@media (max-width: 767px) {
+	.custom-page .dealer-page-items .dealer-page-col:nth-child(3) {
+		width: 100%;
+	}
+}
+.custom-page .dealer-page-items .dealer-page-col:nth-child(4) {
+	width: 13%;
+	max-width: 95px;
+	width: 100%;
+	border-left: 1px solid #E0E0E0;
+	border-right: 1px solid #E0E0E0;
+}
+@media (max-width: 767px) {
+	.custom-page .dealer-page-items .dealer-page-col:nth-child(4) {
+		width: 100%;
+		margin: 8px 0;
+		border: 0;
+	}
+}
+.custom-page .dealer-page-items .dealer-page-col:nth-child(5) {
+	text-align: center;
+	font-weight: 500;
+}
+@media (max-width: 767px) {
+	.custom-page .dealer-page-items .dealer-page-col:nth-child(5) {
+		border-top: 1px solid #E0E0E0;
+		padding-top: 8px;
+	}
+}
+@media (max-width: 767px) {
+	.custom-page .dealer-page-items .dealer-page-col {
+		width: 100%;
+		text-align: left;
+		-webkit-box-pack: start;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+	}
+}
+.custom-page .dealer-page-items .link {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	color: var(--000000, #000);
+	font-family: "Pp Neue Montreal";
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	text-decoration: none;
+}
+@media (max-width: 767px) {
+	.custom-page .dealer-page-items .link {
+		-webkit-box-pack: start;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+	}
+}
+.custom-page .dealer-page-items .link svg {
+	margin-left: 9px;
+}
+
+
+/*Product Sheet*/
+.custom-page .product-page {
+	padding: 50px 0 90px;
+}
+@media (max-width: 768px) {
+	.custom-page .product-page {
+		padding: 32px 0 55px;
+	}
+}
+.custom-page .product-page-top {
+	width: 100%;
+	height: 500px;
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: end;
+	-ms-flex-align: end;
+	align-items: flex-end;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	padding: 20px 20px 0;
+}
+.custom-page .product-page-top img {
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	max-width:100%;
+	object-fit:cover;
+	z-index:-1;
+
+}
+.custom-page .product-page-top .desc {
+	max-width: 852px;
+	color: #FFF;
+	text-align: center;
+	font-family: "Pp Neue Montreal";
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-transform: uppercase;
+	margin: auto auto 50px;
+}
+@media (max-width: 767px) {
+	.custom-page .product-page-top {
+		height: 350px;
+		margin: auto auto 0px;
+	}
+	.custom-page .product-page-top .desc {
+		font-size: 16px;
+		font-weight: 400;
+	}
+	
+}
+.custom-page .product-page-top:before {
+	content: "";
+	display: block;
+	width: 1px;
+	height: 90px;
+	background: #E0E0E0;
+	position: absolute;
+	left: 50%;
+	top: -18px;
+}
+@media (max-width: 767px) {
+	.custom-page .product-page-top:before {
+		height: 64px;
+	}
+}
+.custom-page .connect-with {
+	padding-top: 90px;
+	margin-top: 90px;
+	border-top: 1px solid #E0E0E0;
+}
+@media (max-width: 767px) {
+	.custom-page .connect-with {
+		padding-top: 52px;
+		margin-top: 52px;
+	}
+}
+.custom-page .connect-with .connect-with-top {
+	height: 500px;
+	/*background-size: cover;
+	background-position: center;*/
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	padding: 20px;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	margin-bottom: 32px;
+	position:relative;
+}
+.custom-page .connect-with .connect-with-top img {
+	position:absolute;
+	width:100%;
+	max-width:100%;
+	height:100%;
+	object-fit:cover;
+	top:0;
+	left:0;
+	z-index:-1;
+}
+@media (max-width: 767px) {
+	.custom-page .connect-with .connect-with-top {
+		height: 320px;
+	}
+}
+.custom-page .connect-with .subtitle {
+	color: #FFF;
+	font-family: "Pp Neue Montreal";
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	text-transform: uppercase;
+	opacity: 0.6;
+	margin-bottom: 10px;
+}
+@media (max-width: 767px) {
+	.custom-page .connect-with .subtitle {
+		font-size: 12px;
+	}
+}
+.custom-page .connect-with .title {
+	color: #FFF;
+	font-family: Cormorant;
+	font-size: 44px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	text-transform: uppercase;
+	text-align: center;
+}
+@media (max-width: 767px) {
+	.custom-page .connect-with .title {
+		font-size: 32px;
+		max-width: 240px;
+	}
+}
+.custom-page .connect-with .connect-with-bottom {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+@media (max-width: 967px) {
+	.custom-page .connect-with .connect-with-bottom {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+}
+.custom-page .connect-with .desc {
+	max-width: 680px;
+	color: #333;
+	font-family: "Pp Neue Montreal";
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 26px;
+	margin-right: 20px;
+	width: 50%;
+}
+@media (max-width: 967px) {
+	.custom-page .connect-with .desc {
+		width: 100%;
+		margin-bottom: 20px;
+		margin-right: 0;
+	}
+}
+.custom-page .connect-with .buttons {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+@media (max-width: 767px) {
+	.custom-page .connect-with .buttons {
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+	}
+}
+.custom-page .connect-with .btn-1 {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	padding: 16px 36px;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	border-radius: 4px;
+	background: #000;
+	color: #FFF;
+	font-family: "PP Neue Montreal";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	text-transform: uppercase;
+	margin-right: 20px;
+	text-decoration: none;
+	-webkit-transition: 0.3s all ease-in-out;
+	transition: 0.3s all ease-in-out;
+}
+.custom-page .connect-with .btn-1 span {
+	margin-right: 5px;
+}
+@media (max-width: 767px) {
+	.custom-page .connect-with .btn-1 span {
+		display: none;
+	}
+}
+@media (max-width: 767px) {
+	.custom-page .connect-with .btn-1 {
+		padding: 16px 5px;
+		width: calc(50% - 4px);
+		margin: 0;
+	}
+}
+.custom-page .connect-with .btn-1:hover {
+	background-color: #4f4f4f;
+}
+.custom-page .connect-with .btn-2 {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	padding: 14px 32px;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	border-radius: 4px;
+	border: 1px solid #000;
+	color: #000;
+	font-family: "Pp Neue Montreal";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	text-transform: uppercase;
+	text-decoration: none;
+	-webkit-transition: 0.3s all ease-in-out;
+	transition: 0.3s all ease-in-out;
+}
+@media (max-width: 767px) {
+	.custom-page .connect-with .btn-2 {
+		padding: 14px 5px;
+		width: calc(50% - 4px);
+	}
+}
+.custom-page .connect-with .btn-2:hover {
+	background-color: #000;
+	color: #fff;
+}
+.custom-page .product-page-items {
+	padding-top: 50px;
+}
+.custom-page .product-page-items .collection-item {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	padding: 8px 8px;
+	border-radius: 4px;
+	background: #333;
+	margin-bottom: 8px;
+	-webkit-transition: 0.3s all ease-in-out;
+	transition: 0.3s all ease-in-out;
+}
+.custom-page .product-page-items .collection-item:hover {
+	background: #4F4F4F;
+}
+.custom-page .product-page-items .collection--items {
+	
+}
+.custom-page .product-page-items .collection--items-body .collection--items .collection__products_group {
+	padding-bottom: 20px;
+}
+.custom-page .product-page-items .collection--items-body:last-child .collection--items .collection__products_group:last-child {
+	padding-bottom: 0px;
+}
+.custom-page .product-page-items .collection--items .collection__products_group:first-child {
+	padding-top:10px;
+}
+.custom-page .product-page-items .collection--items .collection__products_group .group__title {
+	font-size: 16px;
+    margin-bottom: 15px;
+	font-weight:500;
+}
+
+@media (max-width: 700px) {
+
+	.custom-page .product-page-items .collection--items .collection__products_group .group__title {
+		 margin-bottom: 5px;
+	}
+}
+.custom-page .product-page-items .collection-left {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+@media (max-width: 700px) {
+	.custom-page .product-page-items .collection-left {
+		width: 100%;
+		
+	}
+	.custom-page .product-page-items .link-col {
+		flex: 0 0 auto;
+	}
+}
+.custom-page .product-page-items .img {
+	width: 55px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-right: 16px;
+}
+@media (max-width: 700px) {
+	.custom-page .product-page-items .img {
+		width: 44px;
+	}
+}
+.custom-page .product-page-items .img img {
+	width: 100%;
+	border-radius: 3px;
+}
+.custom-page .product-page-items .title {
+	color: #FFF;
+	font-family: "Pp Neue Montreal";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-transform: uppercase;
+	margin-right: 16px;
+}
+@media (max-width: 700px) {
+	.custom-page .product-page-items .title {
+		font-size: 14px;
+		margin-right: 0;
+	}
+}
+.custom-page .product-page-items .tag {
+	margin-right: auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	padding: 4px 8px;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	gap: 10px;
+	border-radius: 4px;
+	background: #FFF;
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+	color: #000;
+	font-family: "PP Neue Montreal";
+	font-size: 10px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+}
+.custom-page .product-page-items .tag.best_seller {
+	background: #000;
+	color: #fff;
+}
+.custom-page .product-page-items .link-col {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	color: #FFF;
+	font-family: "Pp Neue Montreal";
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	margin-right: 12px;
+}
+.custom-page .product-page-items .link-col svg {
+	margin-left: 10px;
+}
+.custom-page .product-page-items .product-page-top-titl {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin: 0px 0 5px;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+.custom-page .product-page-items a {
+	text-decoration: none;
+}
+.custom-page .product-page-items .product-page-titl {
+	color: #7D7D7D;
+	font-family: "PP Neue Montreal";
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	letter-spacing: 0.11px;
+	text-transform: uppercase;
+	padding: 0 20px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+@media (max-width: 1100px) {
+	.custom-page .product-page-items .product-page-titl {
+		padding: 0 10px;
+		font-size: 12px;
+	}
+}
+@media (max-width: 800px) {
+	.custom-page .product-page-items .product-page-titl {
+		display: none;
+	}
+}
+.custom-page .product-page-items .product-page-titl svg {
+	margin-right: 6px;
+}
+.custom-page .product-page-items .product-page-titl:nth-child(1) {
+	width: 43.73%;
+}
+.custom-page .product-page-items .product-page-titl:nth-child(2) {
+	width: 19.48%;
+	text-align: center;
+}
+.custom-page .product-page-items .product-page-titl:nth-child(3) {
+	text-align: center;
+	width: 75px;
+}
+.custom-page .product-page-items .product-page-titl:nth-child(4) {
+	text-align: center;
+	width: 76px;
+}
+.custom-page .product-page-items .product-page-titl:nth-child(5) {
+	text-align: center;
+	width: 85px;
+}
+.custom-page .product-page-items .product-page-titl:nth-child(6) {
+	text-align: center;
+	width: 105px;
+}
+.custom-page .product-page-items .product-page-titl:nth-child(7) {
+	text-align: center;
+	width: 105px;
+}
+.custom-page .product-page-items .product-page-titl:nth-child(8) {
+	text-align: center;
+	width: 48px;
+}
+.custom-page .product-page-items .product-page-item {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	padding: 10px 0px;
+	border-radius: 4px;
+	border: 1px solid #E0E0E0;
+	margin-bottom: 8px;
+	-webkit-transition: 0.3s all ease-in-out;
+	transition: 0.3s all ease-in-out;
+}
+@media (max-width: 700px) {
+	.custom-page .product-page-items .product-page-item {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+}
+.custom-page .product-page-items .product-page-item:hover {
+	border: 1px solid #BDBDBD;
+}
+.custom-page .product-page-items .product-page-item:nth-child(2n) {
+	border: 1px solid #E0E0E0;
+	background: #F4F4F4;
+}
+.custom-page .product-page-items .product-page-item:nth-child(2n):hover {
+	border: 1px solid #BDBDBD;
+	background: #F4F4F4;
+}
+.custom-page .product-page-items .product-page-col {
+	padding: 0 10px;
+	color: #000;
+	font-family: "PP Neue Montreal";
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+@media (max-width: 1100px) {
+	.custom-page .product-page-items .product-page-col {
+		padding: 0 10px;
+		font-size: 12px;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+}
+@media (max-width: 700px) {
+	.custom-page .product-page-items .product-page-col {
+		width: 100%;
+		text-align: left;
+		font-size: 13px;
+		display: block;
+		padding: 4px 16px;
+	}
+}
+.custom-page .product-page-items .product-page-col:nth-child(1) {
+	width: 43.73%;
+}
+@media (max-width: 1100px) {
+	.custom-page .product-page-items .product-page-col:nth-child(1) {
+		width: 35%;
+	}
+}
+@media (max-width: 700px) {
+	.custom-page .product-page-items .product-page-col:nth-child(1) {
+		width: 100%;
+		border-bottom: 1px solid #E0E0E0;
+		padding: 0 16px 10px;
+		margin-bottom: 4px;
+	}
+}
+.custom-page .product-page-items .product-page-col:nth-child(2) {
+	width: 19.48%;
+	border-left: 1px solid #E0E0E0;
+	border-right: 1px solid #E0E0E0;
+}
+@media (max-width: 1100px) {
+	.custom-page .product-page-items .product-page-col:nth-child(2) {
+		font-size: 12px;
+	}
+}
+@media (max-width: 700px) {
+
+	.custom-page .product-page-items .product-page-col:nth-child(2) {
+		width: 100%;
+		border: none;
+		text-align: left;
+	}
+	.custom-page .product-page-items .product-page-col:nth-child(2):before {
+		content: attr(data-name);
+		display: inline-block;
+		width: 78px;
+		color: #7D7D7D;
+		font-family: "Pp Neue Montreal";
+		font-size: 11px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+		letter-spacing: 0.11px;
+		text-transform: uppercase;
+		margin-right: 20px;
+		border-right: 1px solid #E0E0E0;
+	}
+}
+.custom-page .product-page-items .product-page-col:nth-child(3) {
+	text-align: center;
+	width: 75px;
+}
+@media (max-width: 700px) {
+	.custom-page .product-page-items .product-page-col:nth-child(3) {
+		width: 100%;
+		text-align: left;
+	}
+	.custom-page .product-page-items .product-page-col:nth-child(3):before {
+		content: attr(data-name);
+		display: inline-block;
+		width: 78px;
+		color: #7D7D7D;
+		font-family: "Pp Neue Montreal";
+		font-size: 11px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+		letter-spacing: 0.11px;
+		text-transform: uppercase;
+		margin-right: 20px;
+		border-right: 1px solid #E0E0E0;
+	}
+}
+.custom-page .product-page-items .product-page-col:nth-child(4) {
+	text-align: center;
+	width: 85px;
+	border-left: 1px solid #E0E0E0;
+	border-right: 1px solid #E0E0E0;
+}
+@media (max-width: 700px) {
+	.custom-page .product-page-items .product-page-col:nth-child(4) {
+		width: 100%;
+		border: none;
+		text-align: left;
+	}
+	.custom-page .product-page-items .product-page-col:nth-child(4):before {
+		content: attr(data-name);
+		display: inline-block;
+		width: 78px;
+		color: #7D7D7D;
+		font-family: "Pp Neue Montreal";
+		font-size: 11px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+		letter-spacing: 0.11px;
+		text-transform: uppercase;
+		margin-right: 20px;
+		border-right: 1px solid #E0E0E0;
+	}
+}
+.custom-page .product-page-items .product-page-col:nth-child(5) {
+	text-align: center;
+	width: 90px;
+}
+.custom-page .product-page-items .product-page-col del {
+	display:none;
+}
+.custom-page .product-page-items .product-page-col ins {
+	text-decoration:none;
+}
+@media (max-width: 700px) {
+	.custom-page .product-page-items .product-page-col:nth-child(5) {
+		width: 100%;
+		text-align: left;
+	}
+	.custom-page .product-page-items .product-page-col:nth-child(5):before {
+		content: attr(data-name);
+		display: inline-block;
+		width: 78px;
+		color: #7D7D7D;
+		font-family: "Pp Neue Montreal";
+		font-size: 11px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+		letter-spacing: 0.11px;
+		text-transform: uppercase;
+		margin-right: 20px;
+		border-right: 1px solid #E0E0E0;
+	}
+}
+.custom-page .product-page-items .product-page-col:nth-child(6) {
+	text-align: center;
+	width: 105px;
+	color: #1E7F5F;
+	border-left: 1px solid #E0E0E0;
+	border-right: 1px solid #E0E0E0;
+}
+@media (max-width: 700px) {
+	.custom-page .product-page-items .product-page-col:nth-child(6) {
+		width: 100%;
+		border: none;
+		text-align: left;
+	}
+	.custom-page .product-page-items .product-page-col:nth-child(6):before {
+		content: attr(data-name);
+		display: inline-block;
+		width: 78px;
+		color: #7D7D7D;
+		font-family: "Pp Neue Montreal";
+		font-size: 11px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+		letter-spacing: 0.11px;
+		text-transform: uppercase;
+		margin-right: 20px;
+		border-right: 1px solid #E0E0E0;
+	}
+}
+.custom-page .product-page-items .product-page-col:nth-child(7) {
+	text-align: center;
+	width: 105px;
+	border-right: 1px solid #E0E0E0;
+}
+@media (max-width: 700px) {
+	.custom-page .product-page-items .product-page-col:nth-child(7) {
+		width: 100%;
+		border: none;
+		text-align: left;
+		padding-bottom: 0;
+	}
+	.custom-page .product-page-items .product-page-col:nth-child(7):before {
+		content: attr(data-name);
+		display: inline-block;
+		width: 78px;
+		color: #7D7D7D;
+		font-family: "Pp Neue Montreal";
+		font-size: 11px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+		letter-spacing: 0.11px;
+		text-transform: uppercase;
+		margin-right: 20px;
+		border-right: 1px solid #E0E0E0;
+	}
+}
+.custom-page .product-page-items .product-page-col:nth-child(8) {
+	text-align: center;
+	width: 48px;
+}
+@media (max-width: 700px) {
+	.custom-page .product-page-items .product-page-col:nth-child(8) {
+		display: none;
+	}
+}
+
+
+
+
+.login-page {
+	padding: 50px 0 90px;
+}
+@media (max-width: 900px) {
+	.login-page {
+		padding: 32px 0 52px;
+	}
+}
+.login-page .login-page-body {
+	max-width: 1110px;
+	margin: 0 auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+@media (max-width: 900px) {
+	.login-page .login-page-body {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+}
+.login-page .login-page-left {
+	width: calc(50% - 15px);
+	max-width: 515px;
+}
+@media (max-width: 900px) {
+	.login-page .login-page-left {
+		width: 100%;
+		margin: 0 auto 40px;
+	}
+}
+.login-page .login-page-top {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: end;
+	-ms-flex-align: end;
+	align-items: flex-end;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+@media (max-width: 767px) {
+	.login-page .login-page-top {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-align: start;
+		-ms-flex-align: start;
+		align-items: flex-start;
+	}
+}
+.login-page .h1-title {
+	margin-bottom: 0;
+	text-align: left;
+	line-height: 91.1%;
+}
+@media (max-width: 767px) {
+	.login-page .h1-title {
+		margin-bottom: 12px;
+	}
+}
+.login-page .dsc {
+	color: #828282;
+	leading-trim: both;
+	text-edge: cap;
+	font-family: "Pp Neue Montreal";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 23px;
+	letter-spacing: -0.16px;
+	margin-bottom: 2px;
+}
+@media (max-width: 767px) {
+	.login-page .dsc {
+		margin-bottom: 0;
+	}
+}
+.login-page .dsc a {
+	color: #000;
+	leading-trim: both;
+	text-edge: cap;
+	text-decoration-line: underline;
+}
+.login-page .dsc a:hover {
+	text-decoration: none;
+}
+.login-page .form-item {
+	margin-bottom: 32px;
+}
+.login-page .form-row {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	gap: 20px;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+.login-page .form-row .form-item {
+	width: calc(50% - 10px);
+}
+.login-page .form-bottom {
+	margin-top: 40px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+.login-page .reg-bottom {
+	margin-top: 8px;
+}
+@media (max-width: 767px) {
+	.login-page .reg-bottom {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+	.login-page .reg-bottom .button {
+		width: 100%;
+		margin-top: 40px;
+	}
+}
+.login-page .lost_password {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+.login-page .lost_password a {
+	color: #000;
+	font-family: "PP Neue Montreal";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #000;
+	-webkit-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+}
+.login-page .lost_password a:hover {
+	border-bottom: 1px solid transparent;
+}
+.login-page .lost_password svg {
+	margin-left: 20px;
+}
+.login-page .button {
+	width: 200px;
+}
+@media (max-width: 767px) {
+	.login-page .button {
+		width: 160px;
+	}
+}
+.login-page .policy {
+	margin-top: 40px;
+	color: #4F4F4F;
+	font-family: "PP Neue Montreal";
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 18px;
+	letter-spacing: -0.12px;
+}
+.login-page .policy a {
+	color: #4F4F4F;
+	text-decoration-line: underline;
+}
+.login-page .login-page-img {
+	width: calc(50% - 15px);
+	max-width: 515px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+@media (max-width: 900px) {
+	.login-page .login-page-img {
+		width: 100%;
+		margin: 0 auto 0px;
+	}
+}
+@media (max-width: 767px) {
+	.login-page .login-page-img {
+		height: 350px;
+	}
+}
+.login-page .login-page-img img {
+	width: 100%;
+	height: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
+}
+.login-page input:-webkit-autofill,
+.login-page input:-webkit-autofill:hover,
+.login-page input:-webkit-autofill:focus,
+.login-page textarea:-webkit-autofill,
+.login-page textarea:-webkit-autofill:hover,
+.login-page textarea:-webkit-autofill:focus,
+.login-page select:-webkit-autofill,
+.login-page select:-webkit-autofill:hover,
+.login-page select:-webkit-autofill:focus {
+	-webkit-text-fill-color: #000;
+	-webkit-box-shadow: 0 0 0px 1000px transparent inset;
+	-webkit-transition: background-color 5000s ease-in-out 0s;
+	transition: background-color 5000s ease-in-out 0s;
+}
+
+
+

@@ -1,0 +1,74 @@
+.elementor-2656 .elementor-element.elementor-element-0ffe7b5{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--background-transition:0.3s;}.elementor-2656 .elementor-element.elementor-element-b30be64 .elementor-widget-cmsmasters-toggles__item{padding:32px 0px 32px 0px;border-style:solid;border-width:0px 0px 1px 0px;border-color:var( --e-global-color-border );}.elementor-2656 .elementor-element.elementor-element-b30be64 .elementor-widget-cmsmasters-toggles__item + .elementor-widget-cmsmasters-toggles__item{margin-top:0px;}.elementor-2656 .elementor-element.elementor-element-b30be64 .elementor-widget-cmsmasters-toggles__item:last-of-type{border-style:solid;border-width:0px 0px 0px 0px;}.elementor-2656 .elementor-element.elementor-element-b30be64{--trigger-icon-size:32px;}.elementor-2656 .elementor-element.elementor-element-b30be64 .elementor-widget-cmsmasters-toggles__trigger{color:var( --e-global-color-6069733 );fill:var( --e-global-color-6069733 );}.elementor-2656 .elementor-element.elementor-element-b30be64 .elementor-widget-cmsmasters-toggles__title:hover .elementor-widget-cmsmasters-toggles__trigger{color:var( --e-global-color-secondary );fill:var( --e-global-color-secondary );}.elementor-2656 .elementor-element.elementor-element-b30be64 .elementor-widget-cmsmasters-toggles__title.active-toggle .elementor-widget-cmsmasters-toggles__trigger{color:var( --e-global-color-secondary );fill:var( --e-global-color-secondary );}.elementor-2656 .elementor-element.elementor-element-b30be64 .elementor-widget-cmsmasters-toggles__content{text-align:left;}@media(max-width:1024px){.elementor-2656 .elementor-element.elementor-element-b30be64 .elementor-widget-cmsmasters-toggles__item{padding:24px 0px 24px 0px;}}@media(max-width:767px){.elementor-2656 .elementor-element.elementor-element-b30be64{--trigger-icon-size:28px;}}/* Start of your custom CSS rules for cmsmasters-toggles, class: .elementor-element-b30be64 */ .elementor-2656 .elementor-element.elementor-element-b30be64 .elementor-widget-cmsmasters-toggles__list {
+    counter-reset: item;
+}
+
+.elementor-2656 .elementor-element.elementor-element-b30be64 .elementor-widget-cmsmasters-toggles__item {
+    counter-increment: item;
+    position: relative;
+}
+
+.elementor-2656 .elementor-element.elementor-element-b30be64 .elementor-widget-cmsmasters-toggles__title-link {
+    z-index: -1;
+}
+
+.elementor-2656 .elementor-element.elementor-element-b30be64 .elementor-widget-cmsmasters-toggles__title-link:before {
+    content: '/'counter(item, decimal-leading-zero);
+    color: #BDBDBD;
+    font-size: 14px;
+    font-weight: 500;
+    min-width: max-content;
+    width: calc(50% + 32px + 10px);
+}
+
+@media (max-width: 767px) {
+    .elementor-2656 .elementor-element.elementor-element-b30be64 .elementor-widget-cmsmasters-toggles__title-link:before {
+        font-size: 12px;
+        margin: 0 20px 0 0;
+        width: auto;
+    }
+}
+
+.elementor-2656 .elementor-element.elementor-element-b30be64 .elementor-widget-cmsmasters-toggles__title-text {
+    justify-content: flex-start;
+}
+
+@media (max-width: 767px) {
+    .elementor-2656 .elementor-element.elementor-element-b30be64 .elementor-widget-cmsmasters-toggles__title:before {
+        width: auto;
+    }
+}
+
+.elementor-2656 .elementor-element.elementor-element-b30be64 .elementor-widget-cmsmasters-toggles__trigger {
+    transition: all .2s ease-in-out;
+}
+
+.elementor-2656 .elementor-element.elementor-element-b30be64 .elementor-widget-cmsmasters-toggles__title:not(.active-toggle):hover .elementor-widget-cmsmasters-toggles__trigger rect {
+    stroke: var(--e-global-color-secondary);
+    fill: var(--e-global-color-secondary);
+}
+
+.elementor-2656 .elementor-element.elementor-element-b30be64 .elementor-widget-cmsmasters-toggles__title:not(.active-toggle):hover .elementor-widget-cmsmasters-toggles__trigger path {
+    fill: var(--e-global-color-background);
+}
+
+.elementor-2656 .elementor-element.elementor-element-b30be64 .elementor-widget-cmsmasters-toggles__title.active-toggle .elementor-widget-cmsmasters-toggles__trigger {
+    transform: rotate(45deg);
+}
+
+.elementor-2656 .elementor-element.elementor-element-b30be64 .elementor-widget-cmsmasters-toggles__content p {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(auto, 1fr));
+    gap: 32px;
+}
+
+@media (max-width: 767px) {
+    .elementor-2656 .elementor-element.elementor-element-b30be64 .elementor-widget-cmsmasters-toggles__content p {
+	display: grid;
+	grid-template-columns: repeat(1, minmax(auto, 1fr));
+    }
+}
+
+.elementor-2656 .elementor-element.elementor-element-b30be64 .elementor-widget-cmsmasters-toggles__content img {
+    display: block;
+    width: 100%;
+} /* End of your custom CSS rules */
